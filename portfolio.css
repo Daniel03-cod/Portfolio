@@ -1,0 +1,241 @@
+#logoname{
+    color: #2bbffa;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+li{
+    float: right;
+    padding: 50px 15px ;
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    margin-top: -10px;
+    font-size: 20px;
+    color: white;
+}
+li a {
+    color: white;
+    text-decoration: none;
+
+    }
+
+li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+#upper{
+    background-image: url(pix/home-bg-slideshow1.jpg);
+    height: 800px;
+    margin-left: -10px;
+    margin-top: -16px;
+}
+.centre{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 30px;
+    color: white;
+}
+.cename{
+    color: #2bbffa;
+    font-family: lucida sans-serif;
+}
+
+
+@keyframes upper{
+    0%{background-image: url(pix/home-bg-slideshow1.jpg);}
+    100%{background-image: url(pix/home-bg-slideshow2.jpg);}
+}
+#upper{
+   /* background-image: url(pix/home-bg-slideshow1.jpg);*/
+    height: 800px;
+    margin-left: -10px;
+    margin-top: -16px;
+    /*background-image: url(pix/home-bg-slideshow1.jpg);*/
+    animation-name: upper;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#work{
+    text-align: center;
+    font-size: 30px;
+    color: #2bbffa;
+}
+.workflex{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+    flex-direction: row;
+    padding-left: -10px;
+    background-color: white;
+    text-align: justify;
+}
+.flex1{
+    background-color: #ffffff;
+    height: 250px;
+    /* padding-left: 20px; */
+    margin-right: 50px;
+    width: 280px;
+    text-align: justify;
+    color: #000;
+}
+.flex2{
+    background-color: #ffff;
+    height: 250px;
+    /* padding-left: 20px; */
+    margin-right: 50px;
+    width: 280px;
+    color: #000;
+}
+.flex3{
+    background-color: #fff;
+    height: 250px;
+    /* padding-left: 20px; */
+    margin-right: 50px;
+    width: 280px;
+    color: #000;
+}
+.flex4{
+    background-color: #fff;
+    height: 250px;
+    /* padding-left: 20px; */
+    margin-right: 50px;
+    width: 280px;
+    color: #000;
+}
+.f1{
+    text-align: center;
+    color: #2bbffa;
+}
+.f2{
+    text-align: center;
+    color: #2bbffa;
+}
+.f3{
+    text-align: center;
+    color: #2bbffa;
+}
+.f4{
+    text-align: center;
+    color: #2bbffa;
+}
+.ag{
+    text-align: center;
+    font-size: 30px;
+    color: #2bbffa;
+    margin-top: 200px;
+}
+/*.ap{
+    display: inline-block;
+    height: 20px;
+    height: 60px;
+}*/
+#price{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    color: #2bbffa;
+}
+#pricet{
+    display: flex;
+    margin-left: 100px;
+    border-radius: 50px;
+    box-shadow: black;
+    text-align: center;
+    text-decoration: none;
+    
+ }
+ #pt1{
+    background-color: rgb(255, 255, 85);
+    color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+ }
+ #pt2{
+    margin-left: 20px; 
+    background-color: rgb(75, 255, 75);
+    color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+#pt3{
+    margin-left: 20px;
+    background-color: rgb(172, 76, 240);
+    color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.pl{
+    margin-top: 90px;
+    text-align: center;
+}
+#contact{
+    text-align: center;
+    margin-top: 40px;
+}
+.sp{
+    text-align: left;
+    background-image: url(pix/contact-bg.jpg);
+    height: 600px;
+    width: 1215px;
+    margin-left: -10px;
+    color:  white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.sp1{
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+#pix1{
+    float: right;
+    width: 600px;
+    height: 428px;
+}
+#pix2{
+    float: right;
+    width: 600px;
+    height: 428px;
+}
+#pix3{
+    float: right;
+    width: 600px;
+    height: 428px;
+}
+#pix4{
+    float: right;
+    width: 600px;
+    height: 428px;
+}
+#link a {
+    color: white;
+    text-decoration: none;
+
+    }
+
+#link a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+#link2 a {
+    color: white;
+    text-decoration: none;
+
+    }
+
+#link2 a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+#link3 a {
+    color: white;
+    text-decoration: none;
+
+    }
+
+#link3 a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
